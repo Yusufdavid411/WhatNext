@@ -14,7 +14,7 @@ const LINKS = [
   }
 ]
 
-type NavigationLink = {
+type NavAnchor = {
   path: string
   children: ReactNode
 }
