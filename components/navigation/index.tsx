@@ -19,7 +19,7 @@ type NavAnchor = {
   children: ReactNode
 }
 
-function NavAnchor ({ path, children }: NavigationLink) {
+function NavAnchor ({ path, children }: NavAnchor) {
   return (
     <Link href={path}>
       <a className={styles.navAnchor}>{children}</a>

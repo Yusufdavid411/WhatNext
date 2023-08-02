@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Navigation />
+        {/* <Navigation /> */}
         <Header />
       </main>
     </>
